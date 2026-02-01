@@ -1,5 +1,5 @@
 class Animal:
-    alive: list["Animal"] = []  # Вот эта правка решит всё!
+    alive: list["Animal"] = []
 
     def __init__(
         self,
